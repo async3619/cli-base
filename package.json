@@ -1,22 +1,22 @@
 {
-    "name": "replay-parser",
-    "version": "1.0.0",
-    "main": "index.js",
-    "license": "MIT",
-    "scripts": {
-        "dev": "node -r ts-node/register ./src/index.ts",
-        "watch": "node -r ts-node/register --watch ./src/index.ts"
-    },
-    "devDependencies": {
-        "@types/node": "^18.6.4",
-        "@typescript-eslint/eslint-plugin": "^8.12.2",
-        "@typescript-eslint/parser": "^8.12.2",
-        "cross-env": "^7.0.3",
-        "eslint": "^8.57.1",
-        "eslint-config-prettier": "^9.1.0",
-        "eslint-plugin-prettier": "^5.2.1",
-        "prettier": "^3.3.3",
-        "ts-node": "^10.9.2",
-        "typescript": "^5.6.3"
-    }
+  "name": "replay-parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node -r ts-node/register ./src/index.ts",
+    "watch": "node -r ts-node/register --watch ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.4",
+    "@typescript-eslint/eslint-plugin": "^8.12.2",
+    "@typescript-eslint/parser": "^8.12.2",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
 }

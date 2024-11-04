@@ -1,9 +1,9 @@
 async function clearConsole() {
-    process.stdout.write("\x1Bc");
+  process.stdout.write('\x1Bc')
 }
 
 async function main() {
-    console.log(":D");
+  console.log(':D')
 }
 
-clearConsole().then(main).then();
+clearConsole().then(main).then()
